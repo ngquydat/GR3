@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<title>Ebook</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<link type="text/css" rel="StyleSheet" href="/css/normalize.css">
+<link type="text/css" rel="StyleSheet" href="/css/main.css">
+<link type="text/css" rel="StyleSheet" href="/css/popup.css">
+
+<link type="text/css" rel="StyleSheet" href="/css/bootstrap.min.css">
+<link type="text/css" rel="StyleSheet" href="/css/bootstrap-theme.min.css">
+
+<script type="text/javascript" language="javascript" src="epub/epub.nocache.js"></script>
+<script src="js/libs/jquery-2.0.3.min.js"></script>
+
+<script src="js/libs/zip.min.js"></script>
+
+<!-- Render -->
+<script src="js/epub.min.js"></script>
+
+<!-- Hooks -->
+<script src="js/hooks.min.js"></script>
+
+<!-- Reader -->
+<script src="js/reader.min.js"></script>
+
+<script src="js/libs/screenfull.min.js"></script>
+
+
+</head>
+<body>
+
+	<!-- OPTIONAL: include this if you want history support -->
+	<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1'
+		style="position: absolute; width: 0; height: 0; border: 0"></iframe>
+
+	<!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+	<noscript>
+		<div
+			style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+			Your web browser must have JavaScript enabled in order for this
+			application to display correctly.</div>
+	</noscript>
+	<div id="abc" style="display: block"></div>
+	<div id="reader" style="display: none">
+		<div>
+			<div id="sidebar">
+				<div id="panels">
+					<input id="searchBox" placeholder="search" type="search"> <a
+						id="show-Search" class="show_view icon-search" data-view="Search">Search</a>
+					<a id="show-Toc" class="show_view icon-list-1 active"
+						data-view="Toc">TOC</a> <a id="show-Bookmarks"
+						class="show_view icon-bookmark" data-view="Bookmarks">Bookmarks</a>
+					<a id="show-Notes" class="show_view icon-edit" data-view="Notes">Notes</a>
+
+				</div>
+				<div id="tocView"></div>
+				<div id="searchView">
+					<ul id="searchResults"></ul>
+				</div>
+				<div id="bookmarksView">
+					<ul id="bookmarks"></ul>
+				</div>
+			</div>
+			<div id="main">
+
+				<div id="titlebar">
+					<div id="opener">
+						<a id="slider" class="icon-menu">Menu</a>
+					</div>
+					<div id="metainfo">
+						<span id="book-title"></span> <span id="title-seperator">&nbsp;&nbsp;–&nbsp;&nbsp;</span>
+						<span id="chapter-title"></span>
+					</div>
+					<div id="title-controls">
+						<a id="bookmark" class="icon-bookmark-empty">Bookmark</a> <a
+							id="setting" class="icon-cog">Settings</a> <a id="fullscreen"
+							class="icon-resize-full">Fullscreen</a>
+					</div>
+				</div>
+
+				<div id="divider"></div>
+				<div id="prev" class="arrow">‹</div>
+				<div id="viewer"></div>
+				<div id="next" class="arrow">›</div>
+
+				<div id="loader">
+					<img src="img/loader.gif">
+				</div>
+			</div>
+			<div class="modal md-effect-1" id="settings-modal">
+				<div class="md-content">
+					<h3>Settings</h3>
+					<div>
+						<p></p>
+					</div>
+					<div class="closer icon-cancel-circled"></div>
+				</div>
+			</div>
+			<div class="overlay"></div>
+		</div>
+	</div>
+</body>
+</html>

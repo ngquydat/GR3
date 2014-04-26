@@ -1,0 +1,80 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+	</ui:style>
+	<g:HTMLPanel>
+		<g:HTMLPanel ui:field="myPagePanel">
+			<h1 align="center">My page</h1>
+			<g:Button styleName="btn btn-primary" ui:field="logoutButton"
+				text="Logout" />
+			<div class="row">
+				<div class="col-md-9" style="border: 1px solid #ddd;">
+					<g:HTMLPanel ui:field="CreateEbookPanel">
+						<g:Button ui:field="ByURLButton" styleName="btn btn-default">By URL</g:Button>
+						<g:Button ui:field="ByHandButton" styleName="btn btn-default">By Hand</g:Button>
+						<form class="form-horizontal" role="form">
+							<div class="form-group">
+								<label class="col-sm-2 control-label">Title</label>
+								<div class="col-sm-8">
+									<g:TextBox styleName="form-control" ui:field="Title" />
+								</div>
+							</div>
+							<g:HTMLPanel ui:field="CreateEbookByURL">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">WebURL</label>
+									<div class="col-sm-8">
+										<g:TextBox styleName="form-control" ui:field="WebURL"
+											text="http://www.tangthuvien.vn/forum/showthread.php?t=70735" />
+										<g:Label ui:field="errorLabel" />
+									</div>
+								</div>
+
+							</g:HTMLPanel>
+							<g:HTMLPanel ui:field="CreateEbookByHand">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Chapter</label>
+									<div class="col-sm-8">
+										<g:TextBox styleName="form-control" ui:field="Chapter1Name" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Content</label>
+									<div class="col-sm-8">
+										<g:RichTextArea styleName="form-control"
+											ui:field="Chapter1Content" height="300px" />
+									</div>
+								</div>
+							</g:HTMLPanel>
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-8">
+									<g:Button styleName="btn btn-primary" text="Create Ebook"
+										ui:field="createButton" />
+								</div>
+							</div>
+						</form>
+						<g:HTMLPanel>
+							<g:VerticalPanel ui:field="editebookinfo">
+								<g:Label>Edit Ebook</g:Label>
+							</g:VerticalPanel>
+						</g:HTMLPanel>
+					</g:HTMLPanel>
+				</div>
+				<div class="col-md-3" style="border: 1px solid #ddd;">
+					<g:HTMLPanel>
+						<g:HorizontalPanel>
+							<g:Button styleName="btn btn-default" text="Refresh"
+								ui:field="refreshButton" />
+							<g:Label styleName="h3">My Ebooks</g:Label>
+						</g:HorizontalPanel>
+						<g:VerticalPanel ui:field="myEbooks" />
+					</g:HTMLPanel>
+				</div>
+			</div>
+		</g:HTMLPanel>
+		<g:HTMLPanel ui:field="myReaderPanel"/>
+	</g:HTMLPanel>
+</ui:UiBinder> 

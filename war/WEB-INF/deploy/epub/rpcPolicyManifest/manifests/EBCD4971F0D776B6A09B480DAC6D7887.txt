@@ -1,0 +1,2 @@
+serviceClass: gwt.client.services.LoginService
+path: 60B87D15E2D3B38AA3187908AAD3AB81.gwt.rpc

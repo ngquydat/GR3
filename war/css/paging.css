@@ -1,0 +1,18 @@
+#spaging-container, #snumber-container {
+ width: 100%;
+}
+.spage183 {
+ display:none;
+}
+.sitem183 {
+ padding: 3px;
+}
+.sitem183 a, .sitem183 a.visited {
+ font-weight: bold;
+ text-decoration: none;
+ color: green;
+}
+.sitem183 a:hover, .sitem183 a.current183 {
+ text-decoration: underline;
+ color: blue;
+}

@@ -1,0 +1,4 @@
+# Module epub
+# RPC service class, partial path of RPC policy file
+gwt.client.services.EbookService, 04FA3F28CA06041F20BA570A3962CCDB.gwt.rpc
+gwt.client.services.LoginService, 60B87D15E2D3B38AA3187908AAD3AB81.gwt.rpc
