@@ -46,7 +46,6 @@ public class EbookServiceImpl extends RemoteServiceServlet implements EbookServi
 
 		CountWebPage(WebURL);
 		FilterContent(WebURL);
-		System.out.println(listChapterContents);
 		return createEbook(loginInfo, Title, listChapters, listChapterContents);
 		
 	}
@@ -61,7 +60,6 @@ public class EbookServiceImpl extends RemoteServiceServlet implements EbookServi
 			FileWriteChannel writeChannel = fileService.openWriteChannel(file,lock);
 
 			OutputStream out = Channels.newOutputStream(writeChannel);
-			
 			new Epub(Title, listChapters, listChapterContents, out);
 			
 			out.close();
@@ -75,10 +73,8 @@ public class EbookServiceImpl extends RemoteServiceServlet implements EbookServi
 
 			Ebook ebook = new Ebook();
 			ebook.name = blobInfo.getFilename().substring(0, blobInfo.getFilename().length()-5);
-			System.out.println(ebook.name);
 			ebook.blobkey = blobInfo.getBlobKey().getKeyString();
 			ebook.listChapters = listChapters;
-			System.out.println(listChapters);
 			ebook.listChapterContents = listChapterContents;
 			ebook.owner = loginInfo.email;
 			ofy = ObjectifyService.begin();

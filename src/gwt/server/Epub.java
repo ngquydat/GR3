@@ -13,20 +13,22 @@ import com.adobe.dp.epub.ops.OPSDocument;
 
 public class Epub {
 	public Publication epub;
-	public Epub(String Title, List<String> listChapters, List<String> listChapterContents, OutputStream out) {
+
+	public Epub(String Title, List<String> listChapters,
+			List<String> listChapterContents, OutputStream out) {
 		try {
 			// create new EPUB document
 			epub = new Publication();
 
 			// set up title, author and language
 			epub.addDCMetadata("title", Title);
-			 epub.addDCMetadata("creator", System.getProperty("desune"));
+			epub.addDCMetadata("creator", System.getProperty("desune"));
 			epub.addDCMetadata("language", "en");
 
 			// prepare table of contents
 			NCXResource toc = epub.getTOC();
 			TOCEntry rootTOCEntry = toc.getRootTOCEntry();
-
+			
 			for (int i = 0; i < listChapters.size(); i++) {
 				// create first chapter resource
 				OPSResource chapter = epub.createOPSResource("OPS/chapter"
@@ -37,8 +39,8 @@ public class Epub {
 				OPSDocument chapterDoc = chapter.getDocument();
 
 				// add chapter to the table of contents
-				TOCEntry chapterTOCEntry = toc.createTOCEntry(listChapters.get(i),
-						chapterDoc.getRootXRef());
+				TOCEntry chapterTOCEntry = toc.createTOCEntry(
+						listChapters.get(i), chapterDoc.getRootXRef());
 				rootTOCEntry.add(chapterTOCEntry);
 
 				// chapter XHTML body element
@@ -48,11 +50,10 @@ public class Epub {
 				Element paragraph = chapterDoc.createElement("p");
 				paragraph.add(listChapterContents.get(i));
 				body.add(paragraph);
-				
-				OCFContainerWriter writer = new OCFContainerWriter(out);
-				epub.serialize(writer);
 			}
-		
+			OCFContainerWriter writer = new OCFContainerWriter(out);
+			epub.serialize(writer);
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

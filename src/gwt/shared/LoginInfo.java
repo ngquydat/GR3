@@ -11,6 +11,9 @@ public class LoginInfo implements Serializable {
 	public String email;
 	public String nickname;
 	public String id;
+	public String username;
+	public String password;
+	public Long userid;
 
 	public LoginInfo(){
 		this.loggedIn = false;
