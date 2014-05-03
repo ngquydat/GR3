@@ -8442,3 +8442,1727 @@ Compiling...
    Compilation completed in 0.00 seconds
 Removing invalidated units
 Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2719 units from cache.
+Compiling...
+   30% complete (ETR: 8 seconds)
+   30% complete (ETR: 8 seconds)
+   30% complete (ETR: 8 seconds)
+   30% complete (ETR: 8 seconds)
+   40% complete (ETR: 8 seconds)
+   50% complete (ETR: 6 seconds)
+   60% complete (ETR: 5 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 21.34 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2719 cached/archived units.  Used 2719 / 2719 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2719 cached/archived units.  Used 2719 / 2719 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2719 units from cache.
+Compiling...
+   60% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 23.75 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2719 cached/archived units.  Used 2719 / 2719 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2719 cached/archived units.  Used 2719 / 2719 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2728 units from cache.
+Compiling...
+   70% complete (ETR: 2 seconds)
+   70% complete (ETR: 2 seconds)
+   70% complete (ETR: 2 seconds)
+   70% complete (ETR: 2 seconds)
+   70% complete (ETR: 2 seconds)
+   70% complete (ETR: 2 seconds)
+   70% complete (ETR: 2 seconds)
+   70% complete (ETR: 2 seconds)
+   80% complete (ETR: 1 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 7.63 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.08 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708280544.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708280544.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708280544_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708283091.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708283091.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708283091_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708377163.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708377163.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708377163_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708379635.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708379635.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708379635_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708412366.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708412366.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708412366_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708458411.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708458411.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708458411_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708458538.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708458538.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.05 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708458538_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708459537.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708459537.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708459537_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708459649.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708459649.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708459649_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708489010.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708489010.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708489010_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708494141.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708494141.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398708494141_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.05 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398741810328.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398741810328.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398741810328_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398741810511.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398741810511.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398741810511_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398742786358.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398742786358.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398742786358_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398742786488.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398742786488.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398742786488_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398742796721.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398742796721.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398742796721_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398743544212.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398743544212.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398743544212_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398743544329.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398743544329.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398743544329_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398743560921.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398743560921.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398743560921_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2729 units from cache.
+Compiling...
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   50% complete (ETR: 5 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 11.47 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget.addChapterWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398758253015.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398758253015.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398758253015_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget.addChapterWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398758253580.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398758253580.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.12 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398758253580_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget.addChapterWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759072004.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759072004.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759072004_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget.addChapterWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759072066.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759072066.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759072066_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget.addChapterWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759088270.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759088270.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759088270_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget.addChapterWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759093431.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759093431.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759093431_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget.addChapterWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759100241.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759100241.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.addChapterWidget_addChapterWidgetUiBinderImpl_designTime1398759100241_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2719 units from cache.
+Compiling...
+   40% complete (ETR: 5 seconds)
+   40% complete (ETR: 5 seconds)
+   40% complete (ETR: 5 seconds)
+   40% complete (ETR: 5 seconds)
+   40% complete (ETR: 5 seconds)
+   50% complete (ETR: 5 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 13.00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2719 cached/archived units.  Used 2719 / 2719 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2719 cached/archived units.  Used 2719 / 2719 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2729 units from cache.
+Compiling...
+   60% complete (ETR: 4 seconds)
+   60% complete (ETR: 4 seconds)
+   60% complete (ETR: 4 seconds)
+   60% complete (ETR: 4 seconds)
+   60% complete (ETR: 4 seconds)
+   60% complete (ETR: 4 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 11.24 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.07 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398831178149.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398831178149.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398831178149_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398831180984.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398831180984.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398831180984_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.07 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832376128.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832376128.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832376128_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832376369.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832376369.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832376369_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832399057.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832399057.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832399057_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832406914.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832406914.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832406914_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832826578.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832826578.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832826578_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832826758.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832826758.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832826758_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832848368.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832848368.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832848368_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832876004.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832876004.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832876004_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832883891.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832883891.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832883891_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832951915.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832951915.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832951915_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832952085.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832952085.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832952085_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832971177.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832971177.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832971177_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832975139.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832975139.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832975139_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832978363.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832978363.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832978363_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget.MypageWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832981091.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832981091.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+         Generating method body for html7()
+         Generating method body for html8()
+         Generating method body for html9()
+         Generating method body for html10()
+         Generating method body for html11()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.MypageWidget_MypageWidgetUiBinderImpl_designTime1398832981091_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2719 units from cache.
+Compiling...
+   30% complete (ETR: 9 seconds)
+   30% complete (ETR: 9 seconds)
+   30% complete (ETR: 9 seconds)
+   30% complete (ETR: 9 seconds)
+   40% complete (ETR: 8 seconds)
+   50% complete (ETR: 6 seconds)
+   60% complete (ETR: 5 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 21.76 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2719 cached/archived units.  Used 2719 / 2719 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2719 cached/archived units.  Used 2719 / 2719 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2719 cached/archived units.  Used 2719 / 2729 units from cache.
+Compiling...
+   Compilation completed in 0.17 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2733 units from cache.
+Compiling...
+   50% complete (ETR: 4 seconds)
+   50% complete (ETR: 4 seconds)
+   50% complete (ETR: 4 seconds)
+   50% complete (ETR: 4 seconds)
+   60% complete (ETR: 4 seconds)
+   60% complete (ETR: 4 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 10.77 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget.LoginWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099293524.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099293524.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099293524_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget.LoginWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099296180.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099296180.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099296180_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget.LoginWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099312547.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099312547.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099312547_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget.LoginWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099319937.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099319937.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099319937_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget.LoginWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.07 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099332928.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099332928.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099332928_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget.LoginWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099339586.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099339586.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.LoginWidget_LoginWidgetUiBinderImpl_designTime1399099339586_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2732 cached/archived units.  Used 2732 / 2733 units from cache.
+Compiling...
+   Compilation completed in 0.01 seconds
+Invalid Unit: gwt.client.widgets.RegisterWidget
+Invalid Unit: gwt.client.Main
+Invalid units found: 2
+Compiling...
+   Compilation completed in 0.03 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget.RegisterWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099360046.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099360046.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099360046_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget.RegisterWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099360522.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099360522.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099360522_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget.RegisterWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099374031.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099374031.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099374031_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget.RegisterWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099377114.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099377114.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099377114_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget.RegisterWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099379180.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099379180.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099379180_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget.RegisterWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099390589.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099390589.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding gwt.client.widgets.RegisterWidget_RegisterWidgetUiBinderImpl_designTime1399099390589_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units

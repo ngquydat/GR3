@@ -1,11 +1,13 @@
 package gwt.client.widgets;
 
-import gwt.client.Main;
 import gwt.client.services.EbookService;
 import gwt.client.services.EbookServiceAsync;
+import gwt.client.services.LoginService;
+import gwt.client.services.LoginServiceAsync;
 import gwt.shared.Ebook;
 import gwt.shared.FieldVerifier;
 import gwt.shared.LoginInfo;
+import gwt.shared.Person;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,6 +24,7 @@ import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.HorizontalPanel;
+import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RichTextArea;
 import com.google.gwt.user.client.ui.RootPanel;
@@ -36,44 +39,45 @@ public class MypageWidget extends Composite {
 	private final EbookServiceAsync ebookService = GWT
 			.create(EbookService.class);
 	@UiField
-	Button logoutButton, createButton, ByURLButton, ByHandButton;
+	Button logoutButton, createButton, ByURLButton, ByHandButton,
+			EbookManageButton, AddChapterButton;
 	@UiField
-	TextBox Title, WebURL, Chapter1Name;
-	@UiField
-	RichTextArea Chapter1Content;
+	TextBox Title, WebURL;
 	@UiField
 	Label errorLabel;
 	@UiField
 	VerticalPanel myEbooks, editebookinfo;
 
 	@UiField
-	HTMLPanel CreateEbookByURL, CreateEbookByHand, CreateEbookPanel;
+	HTMLPanel CreateEbookByURL, CreateEbookByHand, CreateEbookPanel,EbookManage, EbookCreate;
 
 	@UiField
 	Button refreshButton;
 	@UiField
 	HTMLPanel myPagePanel;
-	@UiField
-	HTMLPanel myReaderPanel;
 	LoginInfo loginInfo;
-	Main parent;
+	LoginWidget parent;
+	List<addChapterWidget> listAddChapterWidget = new ArrayList<addChapterWidget>();
+	private final LoginServiceAsync loginService = GWT.create(LoginService.class);
 
 	interface MypageWidgetUiBinder extends UiBinder<Widget, MypageWidget> {
 	}
 
 	public void init() {
 		myPagePanel.setVisible(true);
-		myReaderPanel.setVisible(false);
-
+		Title.getElement().setAttribute("placeHolder", "Title");
 	}
 
-	public MypageWidget(final LoginInfo loginInfo, Main parent) {
+	public MypageWidget(final LoginInfo loginInfo, LoginWidget parent) {
 		this.loginInfo = loginInfo;
 		this.parent = parent;
 		initWidget(uiBinder.createAndBindUi(this));
 		init();
 		loadMainPanel();
 		loadMyEbookPanel();
+		Image refreshimg = new Image("img/refresh_icon.png");
+		refreshButton.getElement().appendChild(refreshimg.getElement());
+
 		refreshButton.addClickHandler(new ClickHandler() {
 
 			@Override
@@ -86,8 +90,22 @@ public class MypageWidget extends Composite {
 
 			@Override
 			public void onClick(ClickEvent event) {
-				Window.Location.replace(loginInfo.logoutUrl);
-
+				if(loginInfo.logoutUrl != null){
+					Window.Location.replace(loginInfo.logoutUrl);
+				}else{
+					loginService.logout(loginInfo.userid, new AsyncCallback<Boolean>() {
+						
+						@Override
+						public void onSuccess(Boolean result) {
+							if(result){
+								loadLogin();
+							}
+						}
+						
+						@Override
+						public void onFailure(Throwable caught) {}
+					});
+				}
 			}
 		});
 
@@ -95,22 +113,42 @@ public class MypageWidget extends Composite {
 
 			@Override
 			public void onClick(ClickEvent event) {
+				EbookCreate.setVisible(true);
+				EbookManage.setVisible(false);
 				CreateEbookByURL.setVisible(true);
 				CreateEbookByHand.setVisible(false);
+				editebookinfo.setVisible(false);
 			}
 		});
 		ByHandButton.addClickHandler(new ClickHandler() {
 
 			@Override
 			public void onClick(ClickEvent event) {
+				EbookCreate.setVisible(true);
+				EbookManage.setVisible(false);
 				CreateEbookByURL.setVisible(false);
 				CreateEbookByHand.setVisible(true);
+				editebookinfo.setVisible(false);
+			}
+		});
+		EbookManageButton.addClickHandler(new ClickHandler() {
+
+			@Override
+			public void onClick(ClickEvent event) {
+				EbookCreate.setVisible(false);
+				EbookManage.setVisible(true);
 			}
 		});
 		createButton.addClickHandler(new ClickHandler() {
 			@Override
 			public void onClick(ClickEvent event) {
 				createEbook(loginInfo);
+			}
+		});
+		AddChapterButton.addClickHandler(new ClickHandler() {
+			@Override
+			public void onClick(ClickEvent event) {
+				addChapter();
 			}
 		});
 	}
@@ -120,6 +158,7 @@ public class MypageWidget extends Composite {
 		CreateEbookByURL.setVisible(false);
 		CreateEbookByHand.setVisible(true);
 		editebookinfo.setVisible(false);
+		EbookManage.setVisible(false);
 	}
 
 	public void loadeditebookPanel(final Ebook ebook) {
@@ -143,7 +182,6 @@ public class MypageWidget extends Composite {
 			editchapterContent.setWidth("650px");
 			editchapterContent.setStyleName("form-control");
 			listRichTextArea.add(editchapterContent);
-
 		}
 		final Button saveEbookButton = new Button("Save");
 		saveEbookButton.setStyleName("btn btn-default");
@@ -237,15 +275,24 @@ public class MypageWidget extends Composite {
 						ebookinfo.add(chaptername);
 					}
 					Anchor linkRead = new Anchor(result.get(i).name);
-					final Anchor linkdown = new Anchor("download");
+					final Anchor linkdown = new Anchor();
 					final String url = GWT.getHostPageBaseURL()
 							+ "download?blobkey=" + result.get(i).blobkey
 							+ "&&filename=" + result.get(i).name + ".epub";
 					linkdown.setHref(url);
-					final Button infoButton = new Button("Info");
-					Button delButton = new Button("X");
-					infoButton.setStyleName("btn btn-default");
-					delButton.setStyleName("btn btn-default");
+					Image downloadimg = new Image("img/download.jpg");
+					linkdown.getElement().appendChild(downloadimg.getElement());
+					final Button infoButton = new Button();
+					Image infoimg = new Image("img/info.jpg");
+					infoButton.getElement().appendChild(infoimg.getElement());
+					infoButton.setWidth("40px");
+					infoButton.setHeight("40px");
+
+					Button delButton = new Button();
+					Image deleteimg = new Image("img/delete.jpg");
+					delButton.getElement().appendChild(deleteimg.getElement());
+					delButton.setWidth("40px");
+					delButton.setHeight("40px");
 
 					linkRead.addClickHandler(new ClickHandler() {
 						@Override
@@ -259,12 +306,10 @@ public class MypageWidget extends Composite {
 					infoButton.addClickHandler(new ClickHandler() {
 						@Override
 						public void onClick(ClickEvent event) {
-							if (infoButton.getText().equalsIgnoreCase("Info")) {
-								infoButton.setText("Hide");
-								ebookinfo.setVisible(true);
-							} else {
-								infoButton.setText("Info");
+							if (ebookinfo.isVisible()) {
 								ebookinfo.setVisible(false);
+							} else {
+								ebookinfo.setVisible(true);
 							}
 
 						}
@@ -293,9 +338,9 @@ public class MypageWidget extends Composite {
 					ebookinfo.add(editEbookButton);
 					final HorizontalPanel h = new HorizontalPanel();
 					h.add(infoButton);
-					h.add(linkRead);
 					h.add(delButton);
 					h.add(linkdown);
+					h.add(linkRead);
 
 					myEbooks.add(h);
 					myEbooks.add(ebookinfo);
@@ -304,6 +349,8 @@ public class MypageWidget extends Composite {
 
 						@Override
 						public void onClick(ClickEvent event) {
+							EbookCreate.setVisible(true);
+							EbookManage.setVisible(false);
 							CreateEbookByHand.setVisible(false);
 							CreateEbookByURL.setVisible(false);
 							editebookinfo.clear();
@@ -319,6 +366,14 @@ public class MypageWidget extends Composite {
 			}
 		});
 
+	}
+
+	public void addChapter() {
+		addChapterWidget newChapter = new addChapterWidget(); 
+		newChapter.chapter.getElement().setAttribute("placeHolder", "Chapter Name");
+		listAddChapterWidget.add(newChapter);
+		
+		CreateEbookByHand.add(newChapter);
 	}
 
 	public void createEbook(LoginInfo loginInfo) {
@@ -351,8 +406,11 @@ public class MypageWidget extends Composite {
 		} else {
 			List<String> listChapters = new ArrayList<String>();
 			List<String> listChapterContents = new ArrayList<String>();
-			listChapters.add(Chapter1Name.getText());
-			listChapterContents.add(Chapter1Content.getHTML());
+			for(int i=0;i<listAddChapterWidget.size();i++){
+				listChapters.add(listAddChapterWidget.get(i).chapter.getText());
+				listChapterContents.add(listAddChapterWidget.get(i).content.getHTML());
+			}
+			
 			ebookService.createEbook(loginInfo, title, listChapters,
 					listChapterContents, new AsyncCallback<Ebook>() {
 						@Override
@@ -370,5 +428,11 @@ public class MypageWidget extends Composite {
 					});
 
 		}
+	}
+
+	private void loadLogin() {
+		LoginWidget login = new LoginWidget();
+		RootPanel.get("abc").clear();
+		RootPanel.get("abc").add(login);
 	}
 }

@@ -1,0 +1,2 @@
+serviceClass: gwt.client.services.EbookService
+path: 2A8CBCA2B2F0A1A45D56D14C8F9377AB.gwt.rpc
