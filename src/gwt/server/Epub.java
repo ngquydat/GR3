@@ -10,7 +10,7 @@ import com.adobe.dp.epub.opf.OPSResource;
 import com.adobe.dp.epub.opf.Publication;
 import com.adobe.dp.epub.ops.Element;
 import com.adobe.dp.epub.ops.OPSDocument;
-
+//created by nguyen quy dat
 public class Epub {
 	public Publication epub;
 
